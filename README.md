@@ -2,43 +2,40 @@
 
 **PM building at the intersection of AI and productivity.**
 
-I ship tools that eliminate friction — focused on newsletter discovery, content curation, and workflow automation. My projects reflect how I think: start with the problem, obsess over the user, find the simplest path to value.
+I ship tools that eliminate friction — focused on deal discovery, content aggregation, and workflow automation. My projects reflect how I think: start with the problem, obsess over the user, find the simplest path to value.
 
 ---
 
 ## 🔨 What I'm Building
 
-### urk — Newsletter Collector
-A TypeScript tool that aggregates and surfaces newsletters programmatically. Built to solve a real problem: too many newsletters, no good way to collect and read them in one place.
+### urk — Promotional Email Aggregator
+A full-stack web app that aggregates promotional newsletters from retail brands into a unified, categorized feed. Live at [urklist.com](https://urklist.com).
 
-- **Problem:** Newsletter discovery is fragmented — readers bounce between inboxes, apps, and websites with no unified layer
-- **Solution:** A collector that fetches, organizes, and surfaces newsletters in one place
+- **Problem:** Promotional emails — deals, promo codes, sale alerts — get buried in your inbox and expire before you see them
+- **Solution:** A dedicated inbox receives brand emails; urk captures each one and surfaces it in a browsable, category-filtered, date-ranged feed
+- **Categories:** Grocery, Footwear, Clothing, Home, Electronics, Travel, Restaurants + 8 more
+- **Roadmap:** AI-powered promo code extraction from email bodies (GPT-4o)
+- **Stack:** Next.js 13 · TypeScript · MongoDB · Prisma · NextAuth · Tailwind · Backblaze B2 · Vercel
+
+### fnl_reader — Email Ingestion Service
+The backend pipeline that powers urk's data feed — fetches and processes incoming brand promotional emails, normalizes them, and writes structured records to the database.
+
 - **Stack:** TypeScript · Active development (2026)
-
-### fnl_reader — Newsletter Fetcher for Urklist
-A Python companion to urk — fetches and processes newsletter content from Urklist.com, making newsletters machine-readable and digestible.
-
-- **Stack:** Python
 
 ---
 
 ## 🧠 How I Think About Product
 
-I build to learn. Each project here started with a question:
-
-- *Why is newsletter discovery still so broken in the age of AI?*
-- *What's the simplest architecture that solves this without over-engineering?*
-- *Where does automation create leverage vs. where does it create noise?*
-
-The code is the artifact. The thinking is the product.
+- **Reduce activation energy** — if a user has to think about it, it's already too complex
+- **Data as UX** — the best features often come from treating unstructured content (emails, links) as structured data
+- **Measure then cut** — every feature starts as a hypothesis; shipping is how you find out if it's true
 
 ---
 
 ## 📬 Let's Connect
 
-- 💼 [LinkedIn](https://linkedin.com/in/vaibhavvnaik) — AI, product strategy, and tools
-- 🛠️ Building in public — watch this space
+- 💼 [LinkedIn](https://linkedin.com/in/vaibhavvnaik)
 
 ---
 
-*PM · AI productivity tools · Newsletter automation · he/him*
+*PM · AI productivity tools · Deal aggregation · Newsletter automation · he/him*

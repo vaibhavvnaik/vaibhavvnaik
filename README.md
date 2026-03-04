@@ -1,6 +1,6 @@
 # Hey, I'm Vaibhav 👋
 
-**PM building at the intersection of AI and productivity.**
+**PM building at the intersection of Developer Platform, API Management, AI, and productivity.**
 
 I ship tools that eliminate friction — focused on deal discovery, content aggregation, and workflow automation. My projects reflect how I think: start with the problem, obsess over the user, find the simplest path to value.
 

@@ -1,6 +1,6 @@
 # Hey, I'm Vaibhav 👋
 
-**builder turned PM — shipping at the intersection of Developer Platforms, API Management, AI Agents, and deal discovery.**
+**builder turned PM — shipping at the intersection of Developer Platforms, API Management, AI Agents, and Platform Infrastructure.**
 
 PM at Remitly, VMWare..
 
